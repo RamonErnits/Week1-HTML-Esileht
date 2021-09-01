@@ -1,16 +1,21 @@
 body{
-    background-color: rgb(88, 88, 255);
+    background-color: silver;
 }
 
 h1{
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
 p{
    
-        
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
 
 }
 
@@ -19,11 +24,13 @@ ul{
 }
 
 h2{
-    background-color: bisque;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
-table{
+table th td{
 
     background-color:bisque;
 
@@ -32,7 +39,19 @@ table{
 strong{
     color: rgba(red, green, blue, alpha);
     font-size: xx-large;
-}
-.rainbow-text{
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h3{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
